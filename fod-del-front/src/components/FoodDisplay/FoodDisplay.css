@@ -1,0 +1,19 @@
+.food-display{
+    margin-top: 30px;
+}
+.food-display h2{
+    font-size: max(2vw,24px);
+    font-weight: 600;
+}
+.food-display-list{
+    display: grid;
+    /* auto-fill
+    automatically create as many grid columns or rows as possible, based on the available space */
+    /* repeat() function in CSS 
+     It allows you to specify how many times a specific track pattern should be repeated.
+     */
+    grid-template-columns: repeat(auto-fill,minmax(240px,1fr));
+    margin-top:30px;
+    row-gap:50px;
+    column-gap: 30px;
+}
