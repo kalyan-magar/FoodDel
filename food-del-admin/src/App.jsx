@@ -9,7 +9,7 @@ import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 const App = () => {
-  // backend url hhhghfghf
+  // backend url 
   const url = "http://localhost:400";
   return (
     <div>
